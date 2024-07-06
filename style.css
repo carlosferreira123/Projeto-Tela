@@ -29,6 +29,7 @@ header {
 
 }
 .navigation a {
+    
     position: relative;
     font-size: 1.1em;
     color: #fff;
@@ -36,10 +37,15 @@ header {
     font-weight: 500;
     margin-left: 40px;
 }
+.navigation a:hover {
+    color: rgb(8, 126, 126);
+    transition: 0.5s;
+    border: none;
+}
 .navigation .btnLogin {
     width: 130px;
     height: 50px;
-    flex-direction: row;
+    
     background: transparent;
     border: 2px solid #fff;
     outline: none;
