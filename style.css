@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: url("https://cdn.photoroom.com/v1/assets-cached.jpg?path=backgrounds_v3/black/Photoroom_black_background_extremely_fine_texture_only_black_co_c756a0c0-4895-4275-845b-7a20f085e432.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+
+}
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration:none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.navigation .btnLogin {
+    width: 130px;
+    height: 50px;
+    flex-direction: row;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.navigation .btnLogin:hover {
+    background-color: rgb(8, 126, 126);
+    transition: 0.3s;
+}
+
+.box {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding: 30px 40px;
+
+}
+h1 {
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+
+}
+.input-container input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-container input::placeholder {
+   color: #fff;
+}
+
+.input-container img {
+    position: absolute;
+    right: 24px;
+    top: 20%;
+    margin-top: 5px;
+}
+.input-container a {
+    font-size: 16px;
+    margin-top: 5px;
+    color: #fff;
+    text-decoration: none;
+
+}
+.input-container a:hover {
+    text-decoration: underline;
+    
+}
+.submit-button {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(8, 126, 126);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    margin-top:24px;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+}
+.submit-button:hover {
+    background-color:  rgb(47, 179, 179);
+    transition: 0.5s all;
+}
+
+.register-link {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.register-link p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+}
+
+
+.register-link p a{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+.register-link p a:hover {
+    text-decoration: underline;
+}
