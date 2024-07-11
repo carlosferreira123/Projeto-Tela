@@ -156,3 +156,7 @@ h1 {
 .register-link p a:hover {
     text-decoration: underline;
 }
+
+ .input-container a {
+    margin: 8px;
+}
